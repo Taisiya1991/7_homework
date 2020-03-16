@@ -1,0 +1,122 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+    font-family: Raleway-heavy, sans-serif; /* Семейство шрифтов */
+    font-size: 11pt; /* Размер основного шрифта в пунктах  */
+  }
+@font-face{
+  font-family: Raleway-heavy;
+  src: url(font_raleway_heavy/example.html);
+  src: url(font_raleway_heavy/install-a-webfont.txt);
+  src: url(font_raleway_heavy/Raleway-Heavy.ttf.eot);
+  src: url(font_raleway_heavy/Raleway-Heavy.ttf.svg);
+  src: url(font_raleway_heavy/Raleway-Heavy.ttf.woff);
+  src: url(font_raleway_heavy/webfonts.ffonts.net.txt);
+  src: url(font_raleway_heavy/webfonts.ffonts.net.htm);
+}
+ .container{
+  display: inline-flex;
+  margin:auto;
+  margin-top: 90px;
+  margin-right: 240px;
+  margin-bottom: 195px;
+  margin-left: 240px;
+  width: 1120px;
+  height: 1101px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  }
+.first{
+  background-image: url(images/1.jpg);
+  width: 740px;
+  height: 540px;
+  margin:auto;
+  color: #FFFFFF;
+  text-align: inherit;
+  }
+  .second{
+    width: 360px;
+    height: 540px;
+    margin: auto;
+    background-color: #FFFFFF;
+  }
+  .third{
+    width: 360px;
+    height: 540px;
+    margin: auto;
+    }
+  .fourth{
+    width: 360px;
+    height: 540px;
+    margin: auto;
+    }
+  .fifth{
+    width: 360px;
+    height: 540px;
+    margin: auto;
+    }
+ .leggend1 .high_little1{
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #95938D;
+  padding-top: 405px;
+  padding-left: 47px;
+  line-height: 25px;
+}
+  .leggend1 .high1{
+   text-transform: uppercase;
+   font-size: 22px;
+   font-weight: bold;
+   color: #FFFFFF;
+   padding-top: 443px;
+   padding-left: 45px;
+   line-height: 25px;
+  }
+  .leggend2 .high_little2{
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #818181;
+    padding-top: 281px;
+    padding-left: 29px;
+    line-height: 23px;
+}
+    .leggend2 .high2{
+     text-transform: uppercase;
+     font-size: 16px;
+     font-weight: bold;
+     color: #1D1D1D;
+     padding-top: 314px;
+     padding-left: 29px;
+     line-height: 23px;
+  }
+  .leggend3 .high3{
+   text-transform: uppercase;
+   font-size: 16px;
+   font-weight: bold;
+   color: #1D1D1D;
+   padding-top: 314px;
+   padding-left: 29px;
+   line-height: 23px;
+}
+.leggend1{
+  padding-left: 47px;
+  padding-top: 405px;
+  line-height: 25px;
+}
+.leggend2{
+  padding-left: 49px;
+  padding-top: 281px;
+  line-height: 25px;
+}
+.leggend3{
+  padding-left: 49px;
+  padding-top: 314px;
+  }
+.face{
+  padding-top: 462px;
+  padding-left: 26px;
+}
